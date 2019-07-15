@@ -1,17 +1,10 @@
-$primary-color: #444;
-$secondary-color: rgb(4, 184, 255);
-$show-home-image: true;
-$home-image: url();
-
-@mixin easeout {
-    transition: all 1.5s ease-out;
-}
-
+@import 'config';
 * {
     box-sizing: border-box;
 }
 
 body {
+    @include background();
     background: $primary-color;
     height: 100%;
     margin: 0;
