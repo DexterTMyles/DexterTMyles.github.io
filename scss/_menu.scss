@@ -42,7 +42,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
     visibility: hidden;
 
     &.show {
@@ -90,11 +90,13 @@
             position: relative;
             top: 230px;
             padding: 1vh;
-            font-size: 50px;
+            font-size: 45px;
 
             h1 {
                 font-family: Verdana;
                 color: $secondary-color;
+                text-transform: uppercase;
+                font-size: 30px;
             }
         }
     }
@@ -127,7 +129,6 @@
         &:hover {
             color: $secondary-color;
         }
-        
 
     }
 }
