@@ -4,6 +4,7 @@ $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.5;
 
+
 @mixin easeout {
     transition: all 1.5s ease-out;
 }
