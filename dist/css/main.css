@@ -108,7 +108,7 @@ body {
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -172,7 +172,7 @@ main {
     border: #04b8ff 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    front-size: 1.5rem; }
+    font-size: 1.6rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
